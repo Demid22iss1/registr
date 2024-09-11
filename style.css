@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #FFDAB9; /* Персиковый фон */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    backdrop-filter: blur(40px); /* Эффект матового стекла */
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: 1px solid #fff; /* Дополнение к оформлению */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+
+textarea {
+    width: 100%; /* Фиксированная ширина */
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Скругленные углы */
+    box-sizing: border-box;
+}
+
+#otpravka{
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 100%;
+}
+
+#otpravka:hover {
+    background-color: #FF4500;
+}
